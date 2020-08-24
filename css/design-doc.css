@@ -1,0 +1,33 @@
+/* Design Doc formatting styles */
+.dd-wrapper {
+    max-width: 768px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.dd-color {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-items: center;
+}
+
+.dd-color > li {
+    padding-right: 25px;
+}
+
+.dd-color > li > div {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.dd-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.dd-cards .card {
+    margin-right: 15px;
+}
